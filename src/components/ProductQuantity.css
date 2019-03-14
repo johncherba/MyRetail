@@ -1,0 +1,70 @@
+.ProductQuantity {
+    padding: 0.4rem 1rem;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 3px;
+    display: inline-block;
+    margin: 1rem 0;
+}
+
+.ProductQuantity .label {
+    color: rgb(51, 51, 51);
+    font-size: 0.875rem;
+    text-transform: lowercase;
+    margin-right: 4rem;
+}
+
+.ProductQuantity .quantity,
+.ProductQuantity input[type="input"] {
+    background: transparent;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    padding: 0;
+    font-size: 0.875rem;
+}
+
+.ProductQuantity .quantity {
+    font-family: Arial, sans-serif;
+    font-size: 1.125rem;
+    font-weight: bold;
+    text-align: center;
+    width: 2.5rem;
+    vertical-align: middle;
+    padding-top: 4px;
+}
+
+.ProductQuantity button,
+.ProductQuantity input[type="button"] {
+    background: transparent;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    padding: 0;
+    font-size: 0.875rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ProductQuantity .increment,
+.ProductQuantity .decrement {
+    font-family: "Helvetica NeueLTStd", Arial, sans-serif;
+    color: rgb(254, 254, 254);
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius: 50%;
+    background: rgb(204, 204, 204);
+    font-size: 1.1875rem;
+    transition: background 300ms;
+}
+
+.ProductQuantity .increment:hover,
+.ProductQuantity .decrement:hover {
+    background: rgb(0, 0, 0);
+}
+
+.ProductQuantity sub {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2rem;
+    color: #ffae42;
+}

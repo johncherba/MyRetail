@@ -1,0 +1,79 @@
+.ProductProCon {
+    background: rgb(245, 245, 245);
+    padding: 16px 12px;
+    margin-bottom: 2rem;
+}
+
+.ProductProCon .heading {
+    font-size: 1.625rem;
+    font-family: "Helvetica NeueLTStd", Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+
+.ProductProCon .subhead {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(102, 102, 102);
+    font-size: 0.75rem;
+    letter-spacing: 0.025rem;
+}
+
+.ProductProCon hr {
+    margin: 1rem 0;
+}
+
+.ProductProCon .red,
+.ProductProCon .gray {
+    font-size: 1.125rem;
+    margin-right: 0.1875rem;
+}
+
+.ProductProCon .red {
+    color: rgb(204, 0, 0);
+}
+
+.ProductProCon .gray {
+    color: rgb(153, 153, 153);
+}
+
+.ProductProCon .title {
+    margin-top: 0.1875rem;
+    margin-bottom: 0;
+}
+
+.ProductProCon .review {
+    margin-top: 0.1875rem;
+    color: rgb(51, 51, 51);
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.025rem;
+}
+
+.ProductProCon .screen-name {
+    color: rgb(0, 102, 204);
+    background: transparent;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    padding: 0;
+    font-size: 0.75rem;
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+.ProductProCon .screen-name:hover {
+    text-decoration: underline;
+}
+
+.ProductProCon .date-posted {
+    color: rgb(51, 51, 51);
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.025rem;
+}

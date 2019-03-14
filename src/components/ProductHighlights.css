@@ -1,0 +1,23 @@
+.ProductHighlights {
+    margin: 1rem 0 4rem 0;
+}
+
+.ProductHighlights .heading {
+    font-family: "Helvetica NeueLTStd", Arial, sans-serif;
+    font-size: 2.25rem;
+    text-transform: lowercase;
+    margin-bottom: 1rem;
+    margin-top: 1.875rem;
+    letter-spacing: 2px;
+}
+
+.ProductHighlights .list {
+    color: rgb(102, 102, 102);
+    font-family: "Helvetica NeueLTStd", Arial, sans-serif;
+    font-size: 0.875rem;
+    padding-left: 1rem;
+}
+
+.ProductHighlights .list li {
+    margin-bottom: 0.875rem;
+}

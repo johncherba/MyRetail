@@ -1,0 +1,16 @@
+.ProductOffer {
+    margin: 1rem 0 2rem 0;
+}
+
+.ProductOffer .value {
+    font-size: 1.875rem;
+    font-weight: bold;
+    padding-right: 0.5rem;
+}
+
+.ProductOffer .qualifier {
+    font-style: normal;
+    font-size: 0.75rem;
+    color: rgb(102, 102, 102);
+    text-transform: lowercase;
+}

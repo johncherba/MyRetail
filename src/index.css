@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Helvetica NeueLTStd";
+    src: url(./fonts/HelveticaNeueLTStd-Th.otf);
+    font-weight: 400;
+}
+
+.App {
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+div[class^="col-"] {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+@media only screen and (max-width: 812px) {
+    div[class^="col-"] {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+
+.loading {
+    width: 100%;
+    text-align: center;
+    padding:3rem 0;
+}
+
+body {
+    margin: 0
+}

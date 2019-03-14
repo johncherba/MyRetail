@@ -1,0 +1,20 @@
+.ProductPromotion {
+    border-top: 1px solid rgb(204, 204, 204);
+    border-bottom: 1px solid rgb(204, 204, 204);
+    padding: 1rem 0;
+    margin: 1rem 0;
+}
+
+.ProductPromotion .description {
+    color: rgb(204, 0, 0);
+    font-size: 1.125rem;
+    text-transform: lowercase;
+    list-style: none;
+    line-height: 1.625rem;
+}
+
+.ProductPromotion .description img {
+    width: 1rem;
+    vertical-align: middle;
+    margin-right: 0.375rem;
+}

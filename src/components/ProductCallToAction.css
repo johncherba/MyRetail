@@ -1,0 +1,95 @@
+.ProductCallToAction {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.ProductCallToAction button,
+.ProductCallToAction input[type="button"] {
+    background: transparent;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    padding: 0;
+    font-size: 0.875rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ProductCallToAction .black,
+.ProductCallToAction .red {
+    border-radius: 3px;
+    padding: 0.625rem 0 0.425rem 0;
+    color: rgb(255, 255, 255);
+    font-family: "Helvetica NeueLTStd", Arial, sans-serif;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    width: 98%;
+    letter-spacing: 2px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .ProductCallToAction .black,
+    .ProductCallToAction .red {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 812px) {
+    .ProductCallToAction .black,
+    .ProductCallToAction .red {
+        font-size: 1rem;
+    }
+}
+
+.ProductCallToAction:first-child {
+    justify-content: flex-start;
+}
+
+.ProductCallToAction:last-child {
+    justify-content: flex-end;
+}
+
+.ProductCallToAction .black {
+    border: 1px solid rgb(0, 0, 0);
+    margin-right: 3px;
+    background: rgb(91, 91, 91);
+    background: -moz-linear-gradient(top, rgb(91, 91, 91) 0%, rgb(68, 68, 68) 17%, rgb(0, 0, 0) 44%, rgb(0, 0, 0) 66%);
+    background: -webkit-linear-gradient(top, rgb(91, 91, 91) 0%, rgb(68, 68, 68) 17%, rgb(0, 0, 0) 44%, rgb(0, 0, 0) 66%);
+    background: linear-gradient(to bottom, rgb(91, 91, 91) 0%, rgb(68, 68, 68) 17%, rgb(0, 0, 0) 44%, rgb(0, 0, 0) 66%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5b5b5b', endColorstr='#000000', GradientType=0);
+    transition: box-shadow 200ms;
+}
+
+.ProductCallToAction .black:hover {
+    background: rgb(91, 91, 91);
+    background: -moz-linear-gradient(bottom, rgb(91, 91, 91) 0%, rgb(68, 68, 68) 17%, rgb(0, 0, 0) 44%, rgb(0, 0, 0) 66%);
+    background: -webkit-linear-gradient(bottom, rgb(91, 91, 91) 0%, rgb(68, 68, 68) 17%, rgb(0, 0, 0) 44%, rgb(0, 0, 0) 66%);
+    background: linear-gradient(to top, rgb(91, 91, 91) 0%, rgb(68, 68, 68) 17%, rgb(0, 0, 0) 44%, rgb(0, 0, 0) 66%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#5b5b5b', GradientType=0);
+    -webkit-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+}
+
+.ProductCallToAction .red {
+    border: 1px solid rgb(204, 0, 0);
+    margin-left: 3px;
+    background: rgb(249, 67, 67);
+    background: -moz-linear-gradient(top, rgb(249, 67, 67) 0%, rgb(204, 0, 0) 44%, rgb(204, 0, 0) 66%);
+    background: -webkit-linear-gradient(top, rgb(249, 67, 67) 0%, rgb(204, 0, 0) 44%, rgb(204, 0, 0) 66%);
+    background: linear-gradient(to bottom, rgb(249, 67, 67) 0%, rgb(204, 0, 0) 44%, rgb(204, 0, 0) 66%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f94343', endColorstr='#cc0000', GradientType=0);
+    transition: box-shadow 200ms;
+}
+
+.ProductCallToAction .red:hover {
+    background: rgb(249, 67, 67);
+    background: -moz-linear-gradient(bottom, rgb(249, 67, 67) 0%, rgb(204, 0, 0) 44%, rgb(204, 0, 0) 66%);
+    background: -webkit-linear-gradient(bottom, rgb(249, 67, 67) 0%, rgb(204, 0, 0) 44%, rgb(204, 0, 0) 66%);
+    background: linear-gradient(to top, rgb(249, 67, 67) 0%, rgb(204, 0, 0) 44%, rgb(204, 0, 0) 66%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc0000', endColorstr='#f94343', GradientType=0);
+    -webkit-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+}
