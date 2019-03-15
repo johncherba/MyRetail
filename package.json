@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "myretail",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,6 +7,15 @@
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5"
+  },
+  "author": {
+    "name": "John Cherba",
+    "email": "john@johncherba.com",
+    "url": "http://johncherba.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johncherba/MyRetail.git"
   },
   "scripts": {
     "start": "react-scripts start",
