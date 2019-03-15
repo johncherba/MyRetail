@@ -17,14 +17,6 @@ class PromotionDescription extends React.Component {
 
 class ProductPromotion extends React.Component {
 
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            items: [],
-        };
-    }
-
     componentDidMount() {
         this.props.dispatch(fetchProductsWithRedux());
     }
