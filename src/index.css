@@ -4,6 +4,11 @@
     font-weight: 400;
 }
 
+html {
+    /* set base rem for app */
+    font-size: 16px;
+}
+
 .App {
     font-family: Arial, sans-serif;
     text-align: left;
