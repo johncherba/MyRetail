@@ -4,10 +4,27 @@ import {fetchProductsWithRedux} from "../services/productActions";
 import "./ProductTitle.css";
 import loader from "../images/loader.gif";
 
+class Title extends React.Component {
+    render() {
+        return (
+            <h1>{this.props.Title}</h1>
+        )
+    }
+}
+
 class ProductTitle extends React.Component {
 
     componentDidMount() {
         this.props.dispatch(fetchProductsWithRedux());
+    }
+
+    static getTitle(products) {
+        return products.map((products, index) => {
+            return <Title key={index}
+                          Title={products.title}>
+
+            </Title>
+        })
     }
 
     render() {
@@ -25,9 +42,8 @@ class ProductTitle extends React.Component {
 
         return (
             <div className={"ProductTitle"}>
-                {products.map(product => (
-                    <h1 key={product.UPC}>{product.title}</h1>
-                ))}
+                {ProductTitle.getTitle(products)}
+
             </div>
         );
     }

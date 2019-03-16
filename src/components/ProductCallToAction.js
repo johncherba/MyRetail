@@ -1,6 +1,7 @@
 import React from 'react';
 import {connect} from "react-redux";
 import "./ProductCallToAction.css";
+import loader from "../images/loader.gif";
 
 class ProductCallToAction extends React.Component {
     constructor(props) {
@@ -55,7 +56,17 @@ class ProductCallToAction extends React.Component {
     }
 
     render() {
-        const {products} = this.props;
+        const {error, loading, products} = this.props;
+
+        if (error) {
+            return <div>Error! {error.message}</div>;
+        }
+
+        if (loading) {
+            return <div className={"loading"}>
+                <img src={loader} alt={"loading"}/>
+            </div>;
+        }
 
         return (
             <div className={"ProductCallToAction"}>
